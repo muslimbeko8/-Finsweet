@@ -39,9 +39,10 @@ export default function Mainnn() {
           </div>
 
           <div>
-            <img src={rasm} alt="rasm" className="w-[638px] h-[361px]" />
+            <img src={rasm} alt="rasm" className="max-w-[638px] h-[361px]" />
           </div>
         </div>
+
         <div className="flex py-[128px] justify-around container mx-auto">
           <div className="flex flex-col gap-[16px]">
             <h1 className="w-[405px] h-[64px] font-poppins font-semibold text-[48px] leading-[64px] text-[#282938] ">
@@ -102,9 +103,7 @@ export default function Mainnn() {
 
         <div className="flex flex-col gap-[47px]">
           <div className="flex flex-col justify-center items-center">
-            <span className="bg-[#F4F6FC] text-center">
-              Features
-            </span>
+            <span className="bg-[#F4F6FC] text-center">Features</span>
             <h1 className="w-[630px] font-poppins font-semibold text-[48px] text-center text-[#282938]">
               Design that solves problems, one product at a time
             </h1>
