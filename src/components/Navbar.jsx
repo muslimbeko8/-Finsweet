@@ -267,14 +267,14 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <header className="bg-[#1B1C31]">
+    <header className="bg-[#1C1E53]">
       <nav className="bg-primary">
         <div className="container ps-8 max-lg:py-4 relative flex justify-between items-center">
           <a href="/">
             <img src={Logo} alt="logo" />
           </a>
           <div className="flex gap-10 items-center">
-            <ul className=" flex fixed ps-8 pe-8 bottom-0 left-0 w-full bg-[#1C1E53] text-white justify-around items-center space-x-6 py-2 md:static md:justify-start md:space-x-6 md:bg-transparent md:hidden">
+            <ul className="flex justify-between max-lg:fixed z-50 bottom-0 start-0 end-0 max-lg:w-full max-lg:bg-primary max-lg:justify-around bg-[#1C1E53] max-lg:py-5 text-white">
               {navLinks.map((l) => (
                 <li key={l.name} className="link">
                   <a
